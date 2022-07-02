@@ -1,7 +1,9 @@
+package Problems;
+
 import java.util.*;
 import java.io.*;
 
-class Javaloops2{
+class JavaLoops2{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();

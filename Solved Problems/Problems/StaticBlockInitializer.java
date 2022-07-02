@@ -1,5 +1,7 @@
+package Problems;
+
 import java.util.*;
-import java.io.*;
+
 
 class StaticBlockInitializer{
     static boolean flag;
@@ -7,8 +9,8 @@ class StaticBlockInitializer{
     
     static{
         Scanner scan = new Scanner(System.in);
-        B = scan.nextInt;
-        H = scan.nextInt;
+        B = scan.nextInt();
+        H = scan.nextInt();
         if(H > 0 && B > 0){
             flag = true;
         }else if(H <= 0 || B <= 0){

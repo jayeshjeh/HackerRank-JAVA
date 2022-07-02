@@ -1,5 +1,7 @@
+package Problems;
+
 import java.util.*;
-import java.io;
+
 
 class JavaDatatypes{
     public static void main(String[] args){
@@ -12,11 +14,11 @@ class JavaDatatypes{
                   System.out.println(x + " can be fitted in:");
                   if(x >= Byte.MIN_VALUE && x <= Byte.MAX_VALUE)System.out.println("x byte");
                   if(x >= Short.MIN_VALUE && x <= Short.MAX_VALUE)System.out.println("x short");
-                  if(x >= Integer.MIN_VALUE && x <= Integer.MAX.VALUE)System.out.println("x int");
+                  if(x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE)System.out.println("x int");
                   if(x >= Long.MIN_VALUE && x <= Long.MAX_VALUE)System.out.println("x long");
              }
              catch(Exception e){
-                System.out.println(sc.next() + " can't be fitted anywhere.");
+                System.out.println(scan.next() + " can't be fitted anywhere.");
              }
         }
     }
